@@ -1,9 +1,10 @@
-/*let number = 1
-while(number <= 10){
-    number += 1
-    console.log(number)
-}*/
+var numberGo = prompt("Введіть парне число")
 
-for(let i = 0;i<10;i++){
-    console.log(i
+parseInt(numberGo)
+
+for(let i = 0;i<numberGo;i++){
+    if(i % 2 == 0){
+        console.log(i)
+    }
+    
 }
